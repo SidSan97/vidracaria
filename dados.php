@@ -3,16 +3,6 @@
    require 'PHPMailer/class.phpmailer.php';
    require 'PHPMailer/class.phpmaileroauthgoogle.php';
 
-    /*if($_POST)
-     {
-        $cn = mysql_connect('localhost', 'root', 'root') or die (msql_error());
-        mysql_select_db('vidracaria', $cn);
-        
-        $query = 'INSERT INTO usuarios';
-
-        mysql_query($query);
-     }*/
-
     $nome       = $_POST['nome'];
     $email      = $_POST['email'];
     $telefone   = $_POST['telefone'];
