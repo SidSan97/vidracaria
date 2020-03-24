@@ -1,0 +1,552 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #f5f6f8;
+}
+
+.div-sup
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.lista
+{
+    list-style: none;
+    display: flex;
+}
+
+.lista li
+{
+    display: flex;
+    width: 33.3%;
+}
+
+.lista img
+{
+    margin-top: 2%;
+    margin-right: 8%;
+}
+
+.lista span
+{
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}
+
+.menu-nav
+{
+    background-color: rgb(209, 12, 12);
+    width: 100%;
+    height: 54px;
+}
+
+.menu-nav label
+{
+    margin-bottom: 0;
+}
+
+.carousel_principal img
+{
+   width: 100%;
+   height: 400px;
+   margin-bottom: 5%;
+}
+
+.carousel
+{
+    z-index: 4;
+}
+
+.sobre_empresa hr
+{
+    color: rgb(209, 12, 12);
+    background-color: rgb(209, 12, 12);
+    height: 3px;
+    width: 30%;
+}
+
+.sobre_empresa h3
+{
+    color: #000000;
+}
+
+.sobre_empresa p
+{
+    color: #707070;
+    font-size: 16px;
+}
+
+.servicos
+{
+    margin-bottom: 5%;
+}
+
+.servicos h3
+{
+    color: #000000;
+}
+
+.servicos hr
+{
+    width: 70%;
+    margin-left: 15%;
+    color: rgb(209, 12, 12);
+    background-color: rgb(209, 12, 12);
+    height: 3px;
+    margin-bottom: 3%;
+}
+
+#orcamento
+{
+    margin-bottom: 5%;
+}
+
+#orcamento h3
+{
+    color: #000000;
+}
+
+#orcamento h5
+{
+    color: #6b6a6a;
+}
+
+#orcamento hr
+{
+    color: rgb(209, 12, 12);
+    background-color: rgb(209, 12, 12);
+    height: 3px;
+    margin-bottom: 3%;
+}
+
+#proc-serv
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+#orcamentos_serv
+{
+    height: 45px;
+    border-color: #888484;
+    border-radius: 2px;
+    color: #6b6a6a;
+}
+
+#orcamentos_serv 
+{
+    color: #2b2b2b;
+    font-weight: 250;
+}
+
+#orcamentos_serv option
+{
+    color: #2b2b2b;
+    font-weight: 250;
+}
+
+.mais-serv h3
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+.mais-serv input
+{
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.mais-serv label
+{
+    margin-top: 1.5%;
+    color: #3c3b3b;
+    font-size: 18px;
+}
+
+#cep h3
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+#cep h5
+{
+    font-size: 16px;
+}
+
+#cep input
+{
+    height: 35px;
+    width: 150px;
+    border: 1px solid;
+    border-right: 0px;
+    border-radius: 2px;
+    color: #6b6a6a;
+    padding-left: 3%;
+}
+
+#cep button
+{
+    height: 35px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 2px;
+    color: #6b6a6a;
+    padding: 5px;
+    background-color: white;
+}
+
+#cep p
+{
+    font-size: 14px;
+    color: rgb(209, 12, 12);
+}
+
+#quantidade h3
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+#qtd-prd
+{
+    height: 35px;
+    border: 1px solid;
+    border-radius: 2px;
+    color: #6b6a6a;
+    padding-left: 3%;
+}
+
+#qtd-prd 
+{
+    color: #2b2b2b;
+    font-weight: 250;
+}
+
+#qtd-prd option
+{
+    color: #2b2b2b;
+    font-weight: 250;
+}
+
+.dimensao h3
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+.dimensao input
+{
+    width: 80px;
+    border-radius: 2px;
+    color: #6b6a6a;
+    border: 1px solid;
+    padding-left: 1%;
+}
+
+.dimensao label
+{
+    color: #6b6a6a;
+}
+
+.height
+{
+    margin-right: 10%;
+}
+
+.descricao h3
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+#desc-orcamento
+{
+    border-color: rgb(209, 12, 12);
+    border-radius: 3px;
+    padding-left: 1%;
+    color: #2b2b2b;
+}
+
+.tempo h3
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+    margin-bottom: 7%;
+}
+
+#tempo-serv
+{
+    height: 35px;
+    border: 1px solid;
+    border-radius: 2px;
+    color: #6b6a6a;
+    padding-left: 3%;
+}
+
+#tempo-serv 
+{
+    color: #2b2b2b;
+    font-weight: 250;
+}
+
+#tempo-serv option
+{
+    color: #2b2b2b;
+    font-weight: 250;
+}
+
+#Nome-Email label
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+#Nome-Email input
+{
+    width: 80%;
+    height: 40px;
+    padding-left: 2%;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+#Tel-Operadora label
+{
+    font-size: 21px;
+    color: #2b2b2b;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+#Tel-Operadora input
+{
+    width: 70%;
+    height: 40px;
+    padding-left: 2%;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+#operadora
+{
+    color: #2b2b2b;
+    font-weight: 250;
+    height: 40px;
+    width: 80px;
+    border-radius: 4px;
+}
+
+#operadora option
+{
+    color: #2b2b2b;
+    font-weight: 250;
+}
+
+#env-form
+{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(209, 12, 12);
+    padding: 14px 30px;
+    border-radius: 25px;
+    border: none;
+}
+
+#env-form:hover
+{
+    background-color: rgb(230, 43, 43);
+}
+
+#galeria
+{
+    margin-bottom: 5%;
+}
+
+#galeria h3
+{
+    color: #000000;
+}
+
+#galeria hr
+{
+    color: rgb(209, 12, 12);
+    background-color: rgb(209, 12, 12);
+    height: 3px;
+    margin-bottom: 3%;
+}
+
+#galeriaOverflow
+{
+    background: rgb(255, 255, 255);
+    color: white;
+    padding: 15px;
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#galeriaOverflow img
+{
+    height: 350px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+#mapa
+{
+    margin-bottom: 5%;
+}
+
+#mapa h3
+{
+    color: #000000;
+    margin-bottom: 1%;
+}
+
+#mapa hr
+{
+    color: rgb(209, 12, 12);
+    background-color: rgb(209, 12, 12);
+    height: 3px;
+    margin-bottom: 3%;
+}
+
+#mapa p
+{
+    color: rgb(32, 32, 32);
+}
+
+#localizacao
+{
+    border: 0.5px solid rgb(209,12,12);
+}
+
+#contato
+{
+    margin-bottom: 5%;
+}
+
+#contato div
+{
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 1%;
+}
+
+#contato h3
+{
+    color: #000000;
+}
+
+#contato hr
+{
+    color: rgb(209, 12, 12);
+    background-color: rgb(209, 12, 12);
+    height: 3px;
+    margin-bottom: 1%;
+}
+
+#contato i
+{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: rgb(209, 12, 12);
+}
+
+#contato p
+{
+    color: rgb(65, 64, 64);
+    font-size: 18px;
+}
+
+#rodape-inf
+{
+    background-color: rgb(209, 12, 12);
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.inf-text h1
+{
+    color: white;
+}
+
+.inf-text p
+{
+    color: white;
+}
+
+@media (max-width: 991px)
+{
+    .lista
+    {
+        flex-direction: row;
+    }
+
+    .lista li
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .col-lg-8
+    {
+        margin: 0;
+    }
+
+    .logo
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tempo h3
+    {
+        margin-bottom: 1%;
+    }
+
+    #galeriaOverflow img
+    { 
+        height: 400px;
+        width: 80%;
+        margin-bottom: 2%; 
+        margin-left: 10%; 
+    }
+}
+
+@media (max-width: 796px)
+{
+    .lista
+    {
+        flex-direction: column;
+    }
+}
