@@ -36,9 +36,9 @@
                       <li>
                         <img src="assets/posicao_icon.png" width="35px" height="35px" alt="Endereço">
                           <p>
-                            <span> Jequié - BA </span>
+                            <span> Salvador - BA </span>
                             <br>
-                            Rua X, próximo a praça
+                            Rua X, próximo a praça Y
                           </p>
                       </li>
                       <li>
@@ -254,7 +254,7 @@
                   <h5> Informe abaixo o seu CEP </h5> <br>
                     <div style="display: flex; flex-direction: row;">
                       <input type="text" placeholder="Informe o CEP" name="cep">
-                      <button><i class="fas fa-search"></i></button>
+                      <!--button><i class="fas fa-search"></i></button-->
                     </div>
                         <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="_blank"><p>Não sabe o seu CEP? Clique aqui!</p></a>
                 </div>
@@ -389,9 +389,9 @@
     <div class="container">
       <h3 align="center">Onde estamos</h3>
         <hr>
-          <p align="left">Av. Tote Lomanto, S/N Joaquim Romão - Jequié-BA (Prox. SUPERGASBRAS E L.E.C ANDAIMES)</p>
+          <p align="left">Salvador - BA</p>
           <div class="col-12" id="localizacao">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.731702527756!2d-40.09119368575777!3d-13.855136881936524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x740af7d148a4f7f%3A0xbeecce50ebd31b40!2sAv.%20Tote%20Lomanto%20-%20Centro%2C%20Jequi%C3%A9%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1584734840659!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248902.29843405838!2d-38.5601943331116!3d-12.901393039151571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716112050422ebd%3A0xf71c84369573db9d!2sSalvador%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1585162383111!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
     </div>
   </div>
