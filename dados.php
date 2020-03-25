@@ -23,10 +23,9 @@
     $limpeza    = $_POST['limpeza'];
     $espera     = $_POST['periodo_espera'];
 
-    echo "Seu nome é $nome <br> e seu email é <br> $email <br> e telefone é $telefone e operador é <br> $operadora";
-    echo "<br><br>$textarea";
-    echo "<br> $cep <br> $largura <br> $altura <br> $tipos_serv <br> $qtd_prd <br> $instal_jan";
-    echo "<br> $espera <br> $vidro_blin <br> $instal_sac <br> $instal_esp <br><br>";
+    echo  $textarea."<br><br>"."Nome: ".$nome."<br>"."Email para contato: ".$email."<br>"."Telefone para contato: ".$telefone." "." Operadora: ".$operadora."<br>"."CEP: ".$cep."<br>"."Altura e Largura: ".$altura." X ".$largura.
+    "<br>"."Quantidade Requerida: ".$qtd_prd."<br>"."Período de Espera: ".$espera."<br>"."Serviço Requisitado: ".$tipos_serv."<br>".$instal_box."<br>".$instal_sac."<br>".
+    $instal_jan."<br>".$mesa_vidro."<br>".$vidro_blin."<br>".$limpeza."<br>";
 
  
 // Inicia a classe PHPMailer 
@@ -84,7 +83,11 @@ $mail->CharSet = 'UTF-8';
 $mail->Subject = "Orçamento"; 
  
 // Corpo do email 
-$mail->Body = $textarea; 
+$mail->Body =  $textarea."<br><br>"."Nome: ".$nome."<br>"."Email para contato: ".$email."<br>"."Telefone para contato: ".$telefone." "." Operadora: ".$operadora."<br>"."CEP: ".$cep."<br>"."Altura e Largura: ".$altura." X ".$largura.
+               "<br>"."Quantidade Requerida: ".$qtd_prd."<br>"."Período de Espera: ".$espera."<br>"."Serviço Requisitado: ".$tipos_serv."<br>".$instal_box."<br>".$instal_sac."<br>".
+               $instal_jan."<br>".$mesa_vidro."<br>".$vidro_blin."<br>".$limpeza."<br>";
+
+
  
 // Opcional: Anexos 
 // $mail->AddAttachment("/home/usuario/public_html/documento.pdf", "documento.pdf"); 
