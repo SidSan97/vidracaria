@@ -87,7 +87,7 @@
 
   <div class="carousel_principal">
     <div class="container">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <!--div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
            <img class="d-block w-100" src="assets/imagens/Frente-loja.jpeg" alt="Primeiro Slide">
@@ -101,7 +101,8 @@
             <img class="d-block w-100" src="assets/imagens/Frente-loja3.jpeg" alt="Terceiro Slide">
           </div>
         </div>
-      </div>
+      </div-->
+      <img src="assets/imagens/banner.jpg" alt="Vidraçarias SidSan">
     </div>
   </div>
 
@@ -109,7 +110,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-lg mb-2">
-          <img src="assets/imagens/sobre.jpeg" alt="Sobre Nós" width="100%" height="350px">
+          <img src="assets/imagens/sobre.jpg" alt="Sobre Nós" width="100%" height="350px">
         </div>
 
         <div class="col-lg" id="sobre">
@@ -391,7 +392,7 @@
         <hr>
           <p align="left">Salvador - BA</p>
           <div class="col-12" id="localizacao">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248902.29843405838!2d-38.5601943331116!3d-12.901393039151571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716112050422ebd%3A0xf71c84369573db9d!2sSalvador%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1585162383111!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248902.29843405838!2d-38.5601943331116!3d-12.901393039151571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716112050422ebd%3A0xf71c84369573db9d!2sSalvador%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1585162383111!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
     </div>
   </div>
@@ -403,7 +404,7 @@
         <div class="row">
           <div class="col-lg-3">
             <i class="fab fa-whatsapp-square"></i> <br>
-            <p align="center" >(73) 9 8851-9416 <br> (73) 9 8881-1988</p>
+            <p align="center" >(71) 1234-5678 <br> (71) 9 1234-5678</p>
           </div>
 
           <div class="col-lg-3">
@@ -413,12 +414,12 @@
 
           <div class="col-lg-3">
             <i class="fab fa-facebook-square"></i> <br>
-            <p align="center">Vidraçaria Bulhõe Correia</p>
+            <p align="center">Vidraçaria Sidsan</p>
           </div>
 
           <div class="col-lg-3">
             <i class="fab fa-instagram"></i> <br>
-            <p align="center">@vidracariabulhoescorreia</p>
+            <p align="center">@vidracaria</p>
           </div>
         </div>
     </div>
