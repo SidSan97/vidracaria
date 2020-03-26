@@ -47,7 +47,7 @@ $mail->SMTPSecure = 'tls';    // TLS REQUERIDO pelo GMail
 // Usuário do servidor SMTP (endereço de email) 
 // obs: Use a mesma senha da sua conta de email 
 $mail->Username = 'sidsantiago18@gmail.com'; 
-$mail->Password = 'senha'; 
+$mail->Password = 'kkkkkk'; 
  
 // Configurações de compatibilidade para autenticação em TLS 
 $mail->SMTPOptions = array( 'ssl' => array( 'verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true ) ); 
