@@ -27,7 +27,27 @@
     "<br>"."Quantidade Requerida: ".$qtd_prd."<br>"."Período de Espera: ".$espera."<br>"."Serviço Requisitado: ".$tipos_serv."<br>".$instal_box."<br>".$instal_sac."<br>".
     $instal_jan."<br>".$mesa_vidro."<br>".$vidro_blin."<br>".$limpeza."<br>";
 
- 
+    //UPLOAD DE ARQUIVOS
+    if(isset($_POST['env-arquivo'])):
+        $formatosPermitidos = array("png", "jpeg", "jpg", "gif");
+        $extensao = pathinfo($_FILES['arquivo']['name'], PATHINFO_EXTENSION);
+        /*$textarea = $formatosPermitidos;*/
+        
+        if(in_array($extensao, $formatosPermitidos)):
+            $pasta = "arquivos/";
+            $temporario = $_FILES['arquivo']['tmp_name'];
+            $novoNome = uniqid().".$extensao";
+
+            if(move_uploaded_file($temporario, $pasta.$novoNome)):
+                $mensagem = "Upload feito com sucesso";
+             else:
+                $mensagem = "Erro, não foi possivel fazer o upload";
+             endif;
+        else:
+          $messagem = "Formato inválido";
+          endif;        
+    endif;  
+ echo $mensagem;
 // Inicia a classe PHPMailer 
 $mail = new PHPMailer(); 
  

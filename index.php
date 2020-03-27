@@ -179,7 +179,7 @@
       <h3 align="center"> ORÇAMENTO </h3>
       <h5 align="center"> Solicite aqui o seu orçamento. É gratis! </h5>
         <hr>
-        <form action="dados.php" method="POST" id="form-orcamento">
+        <form action="dados.php" method="POST" enctype="multipart/form-data" id="form-orcamento">
           <div class="row mb-3">
             <div class="col-lg-4">
                 <div class="mais-serv">
@@ -295,6 +295,8 @@
               <div class="descricao">
                 <h3>Pode nos contar mais detalhadamente o que procura? (OPICIONAL)</h3>
                   <textarea name="desc-orcamento" id="desc-orcamento" cols="45" rows="5"></textarea>
+                  <input type="file" name="arquivo">
+                  <input type="submit" name="env-arquivo">
               </div>             
             </div>
 
