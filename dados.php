@@ -57,8 +57,8 @@
     endif;  
  echo $mensagem;
 
-/// Inicia a classe PHPMailer 
-/*$mail = new PHPMailer(); 
+// Inicia a classe PHPMailer 
+$mail = new PHPMailer(); 
  
 // Método de envio 
 $mail->IsSMTP(); 
@@ -115,7 +115,6 @@ $mail->Subject = "Orçamento";
 $mail->Body =  $textarea."<br><br>"."Nome: ".$nome."<br>"."Email para contato: ".$email."<br>"."Telefone para contato: ".$telefone." "." Operadora: ".$operadora."<br>"."CEP: ".$cep."<br>"."Altura e Largura: ".$altura." X ".$largura.
                "<br>"."Quantidade Requerida: ".$qtd_prd."<br>"."Período de Espera: ".$espera."<br>"."Serviço Requisitado: ".$tipos_serv."<br>".$instal_box."<br>".$instal_sac."<br>".
                $instal_jan."<br>".$mesa_vidro."<br>".$vidro_blin."<br>".$limpeza."<br>";
-
 
  
 // Opcional: Anexos 
