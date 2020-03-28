@@ -181,7 +181,7 @@
         <hr>
         <form action="dados.php" method="POST" enctype="multipart/form-data" id="form-orcamento">
           <div class="row mb-3">
-            <div class="col-lg-4">
+            <div class="col-lg-4" style="margin-left: 1%;">
                 <div class="mais-serv">
                   <h3>Deseja multiplos serviços? Quais?</h3>
                     <div class="row" style="background-color: #e4e7ee; border: #e4e7ee 1px solid;">
