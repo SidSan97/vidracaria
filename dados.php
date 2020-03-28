@@ -28,28 +28,37 @@
     $instal_jan."<br>".$mesa_vidro."<br>".$vidro_blin."<br>".$limpeza."<br>";
 
     //UPLOAD DE ARQUIVOS
-    if(isset($_POST['env-arquivo'])):
+    if(isset($_POST['enviar'])):
         $formatosPermitidos = array("png", "jpeg", "jpg", "gif");
-        $extensao = pathinfo($_FILES['arquivo']['name'], PATHINFO_EXTENSION);
-        /*$textarea = $formatosPermitidos;*/
+        $QuantidadeArquivos = count($_FILES['arquivo']['name']);
+        $contador = 0;
+
+            while($contador < $QuantidadeArquivos):
+
+
+        $extensao = pathinfo($_FILES['arquivo']['name'][$contador], PATHINFO_EXTENSION);
+        //$textarea = $formatosPermitidos;
         
         if(in_array($extensao, $formatosPermitidos)):
             $pasta = "arquivos/";
-            $temporario = $_FILES['arquivo']['tmp_name'];
+            $temporario = $_FILES['arquivo']['tmp_name'][$contador];
             $novoNome = uniqid().".$extensao";
 
             if(move_uploaded_file($temporario, $pasta.$novoNome)):
-                $mensagem = "Upload feito com sucesso";
+                echo "Upload feito com sucesso para $pasta.$novoNome <br>";
              else:
-                $mensagem = "Erro, não foi possivel fazer o upload";
+                echo "Erro, não foi possivel fazer o upload do arquivo $temporario";
              endif;
         else:
-          $messagem = "Formato inválido";
-          endif;        
+          echo "Formato inválido $extensao";
+          endif;   
+                $contador++;
+                endwhile;    
     endif;  
  echo $mensagem;
-// Inicia a classe PHPMailer 
-$mail = new PHPMailer(); 
+
+/// Inicia a classe PHPMailer 
+/*$mail = new PHPMailer(); 
  
 // Método de envio 
 $mail->IsSMTP(); 

@@ -295,8 +295,7 @@
               <div class="descricao">
                 <h3>Pode nos contar mais detalhadamente o que procura? (OPICIONAL)</h3>
                   <textarea name="desc-orcamento" id="desc-orcamento" cols="45" rows="5"></textarea>
-                  <input type="file" name="arquivo">
-                  <input type="submit" name="env-arquivo">
+                  <input type="file" name="arquivo[]" multiple> 
               </div>             
             </div>
 
