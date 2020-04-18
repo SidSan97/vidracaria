@@ -254,7 +254,7 @@
                   <h3> Onde você mora? </h3>
                   <h5> Informe abaixo o seu CEP </h5> <br>
                     <div style="display: flex; flex-direction: row;">
-                      <input type="text" placeholder="Informe o CEP" name="cep">
+                      <input type="text" placeholder="Informe o CEP" name="cep" onkeypress="$(this).mask('00000-000')" maxlength="9">
                       <!--button><i class="fas fa-search"></i></button-->
                     </div>
                         <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="_blank"><p>Não sabe o seu CEP? Clique aqui!</p></a>
@@ -326,7 +326,7 @@
 
             <div class="col-lg-6" id="Tel-Operadora">
               <label for="num"> Telefone</label> <br>
-              <input type="tel" id="num" name="telefone"> <br><br>
+              <input type="tel" id="num" name="telefone" onkeypress="$(this).mask('(00) 00000-0000')" maxlength="15"> <br><br>
                
               <label for="operadora">Operadora</label> <br>
               <select id="operadora" name="operadora">
@@ -429,15 +429,16 @@
   <div id="rodape-inf">
     <div class="container">
       <article class="inf-text">
-        <h1>Loja do SidSan</h1>
+        <h2>Loja do SidSan</h2>
         <p>Sidnei Santiago - Todos os direitos reservados</p>
         <p>Salvador, 06/03/2019</p>
         <p><i class="far fa-envelope" style="font-size: 14pt; color:white;"></i> sidnei1.8santiago@hotmail.com </p> 
       </article>
     </div> 
   </div>
-
+        
     <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
